@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Privacy Policy - PingPong" description="Privacy policy for PingPong browser extension">
+  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin-bottom: var(--spacing-md);">
+    <a href="/">Home</a> / <a href="/privacy">Privacy</a> / PingPong
+  </p>
+
+  <h1>PingPong Browser Extension Privacy Policy</h1>
+  <p style="color: var(--color-text-secondary); font-size: 0.9rem; margin-bottom: var(--spacing-lg);">Last Updated: December 2025</p>
+
+  <h2>Overview</h2>
+  <p>
+    PingPong is a browser extension that helps developers test APIs, send HTTP requests, manage histories, 
+    and use collections—similar to a lightweight Postman alternative.
+  </p>
+
+  <h2>Data Collected</h2>
+  
+  <h3>Stored Locally Only</h3>
+  <p>All user data stays on your device:</p>
+  <ul>
+    <li>Request history</li>
+    <li>Collections</li>
+    <li>Environment variables (if any)</li>
+    <li>Custom headers and settings</li>
+  </ul>
+  <p>
+    All data is kept inside your browser's local storage or extension storage. 
+    <strong>Nothing is uploaded unless explicitly configured by you.</strong>
+  </p>
+
+  <h2>Data Never Collected</h2>
+  <ul>
+    <li>Personal identity information</li>
+    <li>Your APIs' request/response content</li>
+    <li>Tokens or secrets (unless you store them locally yourself)</li>
+    <li>Browsing history</li>
+    <li>Email addresses or personal data</li>
+  </ul>
+
+  <h2>Data Sharing</h2>
+  <p style="padding: var(--spacing-md); background: var(--color-border); margin: var(--spacing-md) 0;">
+    <strong>PingPong does not transmit data to third-party servers.</strong>
+  </p>
+  <p>The only outgoing data is:</p>
+  <ul>
+    <li>Requests you intentionally send to your own APIs</li>
+    <li>Error logs sent optionally (only if you explicitly enable reporting)</li>
+  </ul>
+
+  <h2>Browser Permissions</h2>
+  <p style="padding: var(--spacing-md); background: var(--color-border); margin: var(--spacing-md) 0;">
+    <p><strong>storage</strong> — To save your collections & history locally</p>
+    <p><strong>tabs / activeTab</strong> — For UI interactions and context</p>
+    <p><strong>http://*/* / https://*/*</strong> — To allow sending requests to any API endpoint</p>
+  </p>
+  <p>
+    <strong>Important:</strong> PingPong does not inspect or track your browsing activity. 
+    These permissions only enable the features you explicitly use.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p>
+    <strong>None.</strong> PingPong does not rely on external services, analytics platforms, or cloud storage.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For privacy inquiries, contact us at:<br />
+    <strong>Email:</strong> <a href="mailto:dps.manit@gmail.com">dps.manit@gmail.com</a>
+  </p>
+
+  <footer class="footer">
+    <p><a href="/privacy">← Back to Master Privacy Policy</a></p>
+  </footer>
+</BaseLayout>
