@@ -1,0 +1,10 @@
+# robots.txt for 0xdpslabs.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://0xdpslabs.dev/sitemap.xml
+
+# Crawl-delay (optional, adjust if needed)
+Crawl-delay: 1
