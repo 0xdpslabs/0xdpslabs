@@ -9,30 +9,40 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   <h1>Anately</h1>
   <p style="font-size: 1.1rem; color: var(--color-text-secondary); margin-bottom: var(--spacing-lg);">
-    Privacy-first product usage analytics
+    Privacy-first, high-throughput web analytics engine
   </p>
 
   <h2>Overview</h2>
   <p>
-    Anately is a privacy-respecting analytics platform focused on understanding how users actually use products. 
-    Event-based insights without invasive tracking.
+    A privacy-focused, high-throughput web analytics engine designed for simplicity and performance. 
+    Collects website events without storing PII or using persistent tracking cookies.
   </p>
 
   <h2>Features</h2>
   <ul>
-    <li>Website and product usage tracking</li>
-    <li>Event-based analytics</li>
-    <li>Privacy-first approach</li>
-    <li>Simple integration</li>
-    <li>Focus on actionable insights</li>
+    <li>Privacy-first: No IP storage, no persistent cookies</li>
+    <li>Daily-rotating salts for unique visitor counting</li>
+    <li>High performance with Redis Streams and DuckDB/MotherDuck</li>
+    <li>Lightweight tracker (< 1KB JavaScript footprint)</li>
+    <li>Modern React-based dashboard for real-time insights</li>
+    <li>Self-hostable with standard technologies</li>
+  </ul>
+
+  <h2>Architecture</h2>
+  <ul>
+    <li>Backend: Node.js ingestion API + background worker</li>
+    <li>Frontend: React analytics dashboard</li>
+    <li>Storage: Redis Streams + DuckDB/MotherDuck</li>
+    <li>Decoupled, high-performance architecture</li>
   </ul>
 
   <h2>Status</h2>
-  <p style="font-style: italic; color: var(--color-text-secondary);">Coming soon</p>
+  <p>Active development</p>
 
   <h2>Links</h2>
   <p>
     <a href="https://anately.dev">https://anately.dev</a><br />
+    <a href="https://github.com/0xdps/anately-engine">GitHub Repository</a><br />
     <a href="/privacy">Privacy Policy</a>
   </p>
 

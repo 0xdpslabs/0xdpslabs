@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <text x="10" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="700">
-    <tspan fill="#14b8a6">0</tspan><tspan fill="#10b981">x</tspan>
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Hexagon outline -->
+  <path d="M100 20 L170 60 L170 140 L100 180 L30 140 L30 60 Z" 
+        fill="none" 
+        stroke="#14b8a6" 
+        stroke-width="3"/>
+  
+  <!-- 0x text inside -->
+  <text x="100" y="115" 
+        font-family="monospace" 
+        font-size="42" 
+        font-weight="700" 
+        fill="#14b8a6" 
+        text-anchor="middle">0x</text>
 </svg>

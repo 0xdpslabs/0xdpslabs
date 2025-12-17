@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Privacy Policy - Proofa" description="Privacy policy for Proofa authentication infrastructure">
+  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin-bottom: var(--spacing-md);">
+    <a href="/">Home</a> / <a href="/privacy">Privacy</a> / Proofa
+  </p>
+
+  <h1>Proofa Privacy Policy</h1>
+  <h2 style="font-size: 1.1rem; font-weight: 400; color: var(--color-text-secondary); margin-top: 0;">Enterprise-Grade Authentication & Licensing Infrastructure</h2>
+  <p style="color: var(--color-text-secondary); font-size: 0.9rem; margin-bottom: var(--spacing-lg);">Last Updated: December 2025</p>
+
+  <h2>Overview</h2>
+  <p>
+    Proofa is an enterprise-grade authentication and licensing infrastructure for SaaS applications. 
+    This policy explains how we handle authentication data, sessions, and licensing information.
+  </p>
+
+  <h2>Information Collected</h2>
+  
+  <h3>Authentication Data</h3>
+  <ul>
+    <li>User credentials (email, hashed passwords)</li>
+    <li>Session tokens and refresh tokens</li>
+    <li>Multi-factor authentication settings</li>
+    <li>Login history and timestamps</li>
+  </ul>
+
+  <h3>Licensing Data</h3>
+  <ul>
+    <li>License keys and validation status</li>
+    <li>Product and subscription information</li>
+    <li>Usage limits and quotas</li>
+    <li>Tenant and organization associations</li>
+  </ul>
+
+  <h3>Technical Data</h3>
+  <ul>
+    <li>IP addresses for security monitoring</li>
+    <li>Device information and user agents</li>
+    <li>API usage logs</li>
+  </ul>
+
+  <h2>Data Usage</h2>
+  <p>Data is used solely for:</p>
+  <ul>
+    <li>Authentication and authorization</li>
+    <li>License validation and enforcement</li>
+    <li>Security monitoring and fraud prevention</li>
+    <li>Multi-tenant access control</li>
+    <li>Session management</li>
+  </ul>
+
+  <h2>Data Security</h2>
+  <p style="padding: var(--spacing-md); background: var(--color-border); margin: var(--spacing-md) 0;">
+    <strong>Important:</strong> All passwords are hashed using industry-standard algorithms. 
+    Session tokens use secure encryption. Multi-factor authentication is supported.
+  </p>
+
+  <h2>Data Retention</h2>
+  <ul>
+    <li>Active sessions: Until logout or expiration</li>
+    <li>User accounts: Until deletion requested</li>
+    <li>Audit logs: Retained for security compliance (typically 90 days)</li>
+    <li>License data: Retained for billing and compliance purposes</li>
+  </ul>
+
+  <h2>Multi-Tenant Architecture</h2>
+  <p>
+    Proofa uses a multi-tenant architecture. Data isolation is enforced at the application and database level. 
+    Tenant data is never shared across organizations.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p style="padding: var(--spacing-md); background: var(--color-border); margin: var(--spacing-md) 0;">
+    <p><strong>Hosting:</strong> Cloud infrastructure providers (AWS, GCP, or similar)</p>
+    <p><strong>Email:</strong> Transactional email services for authentication</p>
+    <p><strong>Monitoring:</strong> Infrastructure monitoring (no PII shared)</p>
+  </p>
+
+  <h2>Your Rights</h2>
+  <ul>
+    <li>Access your authentication data</li>
+    <li>Delete your account and associated data</li>
+    <li>Export your data</li>
+    <li>Revoke active sessions</li>
+    <li>Request audit logs</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    For privacy inquiries, contact us at:<br />
+    <strong>Email:</strong> <a href="mailto:dps.manit@gmail.com">dps.manit@gmail.com</a>
+  </p>
+
+  <footer class="footer">
+    <p><a href="/privacy">← Back to Master Privacy Policy</a></p>
+  </footer>
+</BaseLayout>

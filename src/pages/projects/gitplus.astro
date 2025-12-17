@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="GitPlus — 0xdpslabs" description="VS Code extension for extended Git utilities">
+  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin-bottom: var(--spacing-md);">
+    <a href="/">Home</a> / GitPlus
+  </p>
+
+  <h1>GitPlus</h1>
+  <p style="font-size: 1.1rem; color: var(--color-text-secondary); margin-bottom: var(--spacing-lg);">
+    VS Code extension for extended Git utilities
+  </p>
+
+  <h2>Overview</h2>
+  <p>
+    A lightweight extension that adds essential Git features missing from the default VS Code experience.
+  </p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Edit commit messages - Quickly edit commit messages for local commits</li>
+    <li>Local commits only - Shows only commits that haven't been pushed</li>
+    <li>Undo support - Restore original message if you make a mistake</li>
+    <li>No confirmation needed - Direct editing for faster workflow</li>
+    <li>File history visualization</li>
+  </ul>
+
+  <h2>How to Use</h2>
+  <ul>
+    <li>For HEAD commit: Use Source Control title bar button or Command Palette → "GitPlus: Edit Commit Message"</li>
+    <li>For any local commit: Command Palette → "GitPlus: Edit Commit Message" → Select from list</li>
+  </ul>
+
+  <h2>Status</h2>
+  <p>Active development</p>
+
+  <h2>Links</h2>
+  <p>
+    <a href="https://marketplace.visualstudio.com/items?itemName=0xdps.gitplus">VS Code Marketplace</a><br />
+    <a href="https://github.com/0xdps/gitplus-extension">GitHub Repository</a><br />
+    <a href="/privacy/gitplus">Privacy Policy</a>
+  </p>
+
+  <footer class="footer">
+    <p><a href="/">← Back to home</a></p>
+  </footer>
+</BaseLayout>
