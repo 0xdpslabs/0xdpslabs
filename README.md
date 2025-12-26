@@ -1,6 +1,6 @@
-# 0xdpslabs Website
+# 0xlabs Space Website
 
-Static website for 0xdpslabs — a personal lab for building developer tools and infrastructure.
+Static website for 0xlabs Space — a personal lab for building developer tools and infrastructure.
 
 ## Development
 
